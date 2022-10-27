@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /* margin: auto; */
+  padding: 20px;
+  width: 40vh;
+  border: 1px solid black;
+}
+
+.button-container {
+  margin: 20px;
+}
+
+ul.nav-list {
+  background-color: #f3f3f3;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li.nav-item {
+  border: 1px solid #ffffff;
+  float: left;
+}
+
+li.nav-item a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.nav-item a:hover {
+  background-color: rgba(17, 17, 17, 0.105);
+}
